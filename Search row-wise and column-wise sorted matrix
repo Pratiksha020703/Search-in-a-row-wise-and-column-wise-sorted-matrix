@@ -2,8 +2,6 @@ def matSearch(mat,x):
     n = len(mat)
     m = len(mat[0])
     
-    res = []
-    
     for i in range(n):
         for j in range(m):
             if mat[i][j] == x:
